@@ -1,4 +1,4 @@
-# METRO Near-Real-Time Data Warehouse System (DS3003 Project)
+# METRO Near-Real-Time Data Warehouse System
 
 ## 📌 Project Overview
 
@@ -80,17 +80,9 @@ The MESHJOIN-based ETL pipeline includes:
 ## 📝 Technologies Used
 
 - 💻 Java (Eclipse IDE)
-- 🗃️ Relational DB for DW (e.g., MySQL/PostgreSQL)
+- 🗃️ Relational DB for DW (MySQL)
 - 🧠 OLAP Querying (SQL with slicing, dicing, roll-up, drill-down)
 - 🖼️ Star Schema modeling
-
----
-
-## ⚠️ Limitations of MESHJOIN (Example Ideas)
-
-1. Requires careful memory and partition size tuning
-2. Potential latency due to cyclic MD traversal
-3. Limited adaptability to rapid schema changes or high-frequency updates
 
 ---
 
